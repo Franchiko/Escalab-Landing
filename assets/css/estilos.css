@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+.menu{
+    background-color:aliceblue;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.menu .logotipo{
+    text-decoration: none;
+}
+
+.menu .link-menu {
+    color: green;
+    text-decoration: none;  
+}
+
+.menu li{
+    padding: 10px 0px 10px 35px;
+    list-style: none; 
+}
+
+.menu .link-menu:hover {
+    background-color: violet;
+}
